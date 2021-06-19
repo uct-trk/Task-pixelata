@@ -1,0 +1,153 @@
+.form-section{
+    display: flex;
+    margin-left: 240px;
+    margin-bottom: 302px;
+}
+
+.form-section-remove{
+    display: none;
+}
+
+.contact-form{
+    width: 518px;
+    height: 840px;
+    background:#FFFFFF;
+    max-width: 100%;
+    z-index: 2;
+    margin-right: 135px;
+}
+
+.form-title{
+    margin-left: 58px;
+    margin-top: 58px;
+    font-size: 28px;
+    color: #17262F;
+    font-weight: 500;
+}
+
+.wrap-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap-input label{
+    margin-left: 60px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.wrap-input label span{
+    color: #EA3D3D;
+}
+
+.wrap-input input{
+    width: 397px;
+    height: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: #F7F6F4;
+}
+.wrap-input input::placeholder{
+    padding: 20px;
+}
+
+.wrap-input textarea{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 398px;
+    height: 120px;
+    border: none;
+    background-color: #F7F6F4;
+}
+.wrap-input textarea::placeholder{
+    padding: 20px;
+}
+
+.btn-wrap{
+    position: relative;
+}
+
+.btn-submit{
+    position: absolute;
+    margin-bottom: 53px;
+    width: 398px;
+    height: 68px;
+    margin-left: 60px;
+    background-color: #EA3D3D;
+    border: none;
+}
+.btn-wrap i{
+    position: absolute;
+    color: white;
+    left: 410px;
+    top: 25px;
+}
+.btn-submit span{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Adres Bölümü*/
+.address-info{
+    display: flex;
+    flex-direction: column;
+}
+.address-title{
+    font-size: 28px;
+    color: #17262F;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sub-title{
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    line-height: 34px;
+    font-weight: 500;    
+}
+
+.address{
+    letter-spacing: 0.18px;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: .7; 
+    max-width: 486px;   
+}
+.btn-wrap-map{
+    height: 68px;
+    font-size: 18px;
+    background-color: #EA3D3D;
+    border: none;
+    color: white;
+    width: 237px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+.btn-wrap-map span{
+    letter-spacing: 0.50px;
+    text-align: center;
+    font-size: 18px;
+}
+.btn-wrap-map i {
+    float: right;
+    margin-right: 20px;
+}
+.phone-title{
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    line-height: 34px;
+    font-weight: 500;
+}
+.phone span{
+    margin-right: 10px;
+    opacity: .5;
+    color: #959594;
+}
+
+.contact-info-down{
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 2px solid #eee;
+}

@@ -1,0 +1,111 @@
+
+.hamburger-menu{
+    /* width: 1321px;
+    height: 982px; */
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    z-index: 5;
+    display: none;
+    transition: all 3000ms ease;
+}
+.hamburger-menu-show{
+    width: 1321px;
+    height: 982px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 45px;
+    right: 45px;
+    z-index: 5;
+    display: block;  
+    transition: all 3000ms ease;
+}
+
+.hamburger-wrap-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 173px;
+}
+.red-mini-box{
+    width: 10px;
+    height: 48px;
+    background-color: #EA3D3D;
+}
+
+.left-content{
+    margin-right: 310px;
+    margin-left: 120px;
+}
+
+.left-content h3{
+    font-size: 48px;
+    margin-bottom: 56px;
+}
+
+.hamburger-links{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 58px;
+}
+.hamburger-links a {
+    margin-bottom: 17px;
+    font-size: 26px;
+    text-decoration: none;
+    color: #959594;
+}
+.sub-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+}
+.sub-links a{
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #959594;
+    width: 400px;
+}
+
+.right-content{
+    margin-right: 232.99px;
+}
+.right-content h5{
+    font-size: 26px;
+    color: #17262F;
+    margin-bottom: 24px;
+}
+
+.hamburger-address-info{
+    font-size: 20px;
+    color: #363636;
+    opacity: 70%;
+    margin-bottom: 41px;
+}
+
+.hamburger-phone-title{
+    color: #17262F;
+    font-size: 26px;
+    margin-bottom: 22px;
+}
+
+.hamburger-phone-number{
+    font-size: 26px;
+    color: #363636;
+    opacity: 70%;
+    margin-bottom: 73px;
+}
+
+.hamburger-followus{
+    color: #17262F;
+    opacity: 90%;
+    font-size: 26px;
+    margin-bottom: 43.18px;
+}
+
+.hamburger-social-links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 276px;
+
+}

@@ -1,0 +1,57 @@
+.background{
+    /* position: relative; */
+    height: 500px;
+    width: 100vw;
+}
+.vertical-up{
+    position: absolute;
+    border-left: 1px solid #DADEE0;
+    left: 67%;
+    height: 370px;
+}
+.horizontal{
+    position: absolute;
+    border-bottom: 1px solid #DADEE0;
+    top: 400px;
+    width: 100vw;
+    transform: rotate(-12deg);
+}
+.box1{
+    background-color: #EA3D3D;
+    position: absolute;
+    width: 202px;
+    height: 133.37px;
+    top: 240px;
+    left: 64%;
+    clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+}
+.box2{
+    background-color: #EA3D3D;
+    position: absolute;
+    width: 202px;
+    height: 133.37px;
+    clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    top: 450px;
+    left: 11%;
+    z-index: 2;
+    display: none;
+}
+.box2-add{
+    background-color: #EA3D3D;
+    position: absolute;
+    width: 202px;
+    height: 133.37px;
+    clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    top: 450px;
+    left: 11%;
+    z-index: 2;
+    display: block;
+}
+.vertical-down{
+    position: absolute;
+    border-left: 1px solid #DADEE0;
+    top: 500px;
+    height: 300px;
+    left: 15%;
+    /* display: none; */ 
+}
