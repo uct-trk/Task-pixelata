@@ -1,5 +1,4 @@
 .background{
-    /* position: relative; */
     height: 500px;
     width: 100vw;
 }
@@ -51,7 +50,221 @@
     position: absolute;
     border-left: 1px solid #DADEE0;
     top: 500px;
-    height: 300px;
+    height: 550px;
     left: 15%;
     /* display: none; */ 
+}
+
+/**********Responsive Yapı***********/
+@media (max-width: 1600px){
+    .vertical-down{
+        position: absolute;
+        border-left: 1px solid #DADEE0;
+        top: 500px;
+        height: 550px;
+        left: 17%;
+        
+    }
+}
+@media (max-width: 1500px){
+    .box1{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 202px;
+        height: 133.37px;
+        top: 250px;
+        left: 64%;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    }
+}
+
+@media (max-width: 1400px){
+    .vertical-down{
+        position: absolute;
+        border-left: 1px solid #DADEE0;
+        top: 500px;
+        height: 350px;
+        left: 18.5%;
+    }
+}
+
+@media (max-width: 1300px){
+    .vertical-down{
+        position: absolute;
+        border-left: 1px solid #DADEE0;
+        top: 500px;
+        height: 320px;
+        left: 20%;
+    }
+    .box2{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 202px;
+        height: 133.37px;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+        top: 450px;
+        left: 11%;
+        z-index: 2;
+        display: none;
+    }
+    .box2-add{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 202px;
+        height: 133.37px;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+        top: 430px;
+        left: 10%;
+        z-index: 2;
+        display: block;
+    }
+    .box1{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 202px;
+        height: 133.37px;
+        top: 260px;
+        left: 64%;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    }
+}
+
+@media (max-width: 1200px){
+    .box1{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 190px;
+        height: 123.37px;
+        top: 266px;
+        left: 64%;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    }
+    .box2{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 162px;
+        height: 100.37px;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+        top: 420px;
+        left: 10%;
+        z-index: 2;
+        display: none;
+    }
+    .box2-add{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 162px;
+        height: 100.37px;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+        top: 420px;
+        left: 10%;
+        z-index: 2;
+        display: block;
+    }
+    .vertical-down{
+        position: absolute;
+        border-left: 1px solid #DADEE0;
+        top: 450px;
+        height: 350px;
+        left: 20%;
+    }
+}
+
+@media (max-width: 1100px){
+    .box1{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 180px;
+        height: 113.37px;
+        top: 282px;
+        left: 64%;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    }
+    .box2{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 102px;
+        height: 88.37px;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+        top: 420px;
+        left: 5%;
+        z-index: 2;
+        display: none;
+    }
+    .box2-add{
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 132px;
+        height: 98.37px;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+        top: 430px;
+        left: 7%;
+        z-index: 2;
+        display: block;
+    }
+    .vertical-down{
+        position: absolute;
+        border-left: 1px solid #DADEE0;
+        top: 450px;
+        height: 350px;
+        left: 15%;
+    }
+}
+
+@media (max-width: 1000px){
+    .box1 {
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 180px;
+        height: 103.37px;
+        top: 290px;
+        left: 64%;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    }
+    .vertical-down{
+        position: absolute;
+        border-left: 1px solid #DADEE0;
+        top: 450px;
+        height: 350px;
+        left: 15%;
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .box1 {
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 150px;
+        height: 103.37px;
+        top: 298px;
+        left: 60%;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    }
+}
+
+@media (max-width: 576px){
+    .vertical-up{
+        position: absolute;
+        border-left: 1px solid #DADEE0;
+        left: 67%;
+        height: 285px;
+    }
+    .horizontal{
+        position: absolute;
+        border-bottom: 1px solid #DADEE0;
+        top: 290px;
+        width: 100vw;
+        transform: rotate(-12deg);
+    }
+    .box1 {
+        background-color: #EA3D3D;
+        position: absolute;
+        width: 120px;
+        height: 80.37px;
+        top: 220px;
+        left: 61%;
+        clip-path: polygon(100% 0, 100% 66%, 0 100%, 0 34%);
+    }
+    
 }
