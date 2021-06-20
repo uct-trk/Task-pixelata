@@ -254,7 +254,7 @@
         position: absolute;
         border-bottom: 1px solid #DADEE0;
         top: 290px;
-        width: 100vw;
+        width: 100%;
         transform: rotate(-12deg);
     }
     .box1 {
