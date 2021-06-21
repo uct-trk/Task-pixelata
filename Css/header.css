@@ -49,12 +49,43 @@
     z-index: 99;
 
 }
-svg.hamburger-menu-icon{
-    position: absolute;
-    top: -24%;
-    left: 34%;
-    z-index: 90;
+.header-right-menu_button-active {
+    width: 77px;
+    height: 78px;
+    background-color: #363636;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
 }
+.hamburger {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: white;
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: white;
+}
+
 
 @media (max-width: 1100px){
     .header {
@@ -99,9 +130,7 @@ svg.hamburger-menu-icon{
         cursor: pointer;
     }
 }
-@media (max-width: 800px){
-    
-}
+
 @media (max-width: 576px){
     .header{
         height: 35px;
@@ -132,11 +161,40 @@ svg.hamburger-menu-icon{
         position: relative;
         z-index: 99;
     }
-    svg.hamburger-menu-icon {
+    .hamburger {
         position: absolute;
-        top: -35px;
-        left: 15%;
-        z-index: 90;
+        left: 5px;
+        top: 5px;
+    }
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: white;
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: white;
+    }
+    .header-right-menu_button-active {
+        width: 37px;
+        height: 38px;
+        background-color: #363636;
+        cursor: pointer;
+        position: relative;
+        z-index: 99;
     }
     .header-right-languages {
         margin-right: 10px;
